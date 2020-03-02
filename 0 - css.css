@@ -1,0 +1,174 @@
+body{
+  width:100;
+  height: auto;
+  margin-right:auto;
+  margin-left:auto;
+  background-image: url(background.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100%;
+}
+
+
+
+header{
+  /* Her kan jeg skrive kommentar */
+width: 949px;
+height: 170px;
+margin-right:auto;
+margin-left:auto;
+background-color:#3333ff;
+}
+
+table.navigation, th.navigation, th.navigation{
+  width: 949px;
+  height: 39px;
+  }
+
+.navigation{
+  color: #000000;
+  font-family: sans-serif;
+  text-decoration: none;
+  text-align: center;
+}
+
+.Login{
+  text-decoration: none;
+  text-align: right;
+  padding: 5px;
+  float:right
+}
+a:link{
+  text-decoration: none;
+}
+
+h1{
+  margin: 0px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  color: #48486a;
+  font-family: "Calibri Light",sans-serif;
+  font-size: 70px;
+}
+
+text{
+  color: #00000;
+  font-family: "Calibri Light",sans-serif;
+  font-size: 20px;
+  line-height: 25px;
+  text-align: justify;
+}
+
+text.text2{
+  color: #00000;
+  font-family: "Calibri Light",sans-serif;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: justify;
+}
+
+h2{
+  color: #48486a;
+  font-family: "Calibri Light",sans-serif;
+  font-size: 30px;
+}
+
+section{
+  width:929px;
+  height:auto;
+  margin-right:auto;
+  margin-left:auto;
+  padding: 10px;
+  background-color: #ffffff;
+}
+
+
+#stortekst{
+  font-size: 60px;
+}
+
+.citat{
+  font-size: 18px;
+  font-style: italic;
+}
+
+ul.liste{
+  list-style-type: circle;
+}
+
+table.oversig, th.oversig, td.oversig{
+  border:5px solid black;
+  background-color: #ffffff;
+  text-align: center;
+  border-collapse: collapse;
+  font-size:20px;
+  font-weight:bold;
+}
+
+table.oversig,{
+  width: 909px;
+
+
+  }
+  th.oversig, td.oversig{
+    width: 303px;
+    height: 303px;
+
+  }
+
+  table.formler, th.formler, td.formler{
+    border:5px solid black;
+    background-color: #ffffff;
+    text-align: center;
+    border-collapse: collapse;
+
+  }
+
+table.text, th.text, td.text{
+  text-align: left;
+  vertical-align: top;
+}
+
+  /* Disse pdf gælder for PDF, Word og PowerPoint*/
+table.billede, th.billede, td.billede{
+    font-size: 11px;
+    font-family: "Calibri Light",sans-serif;
+    color: black;
+    font-weight:bold;
+    font-style: italic;
+}
+
+div.billede,div.pdf{
+  width: 300px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 15px;
+}
+
+a.billede:hover {
+    text-decoration: none;
+    font-size: 20px;
+    font-family: "Calibri Light",sans-serif;
+    text-align:middle;
+  }
+
+  /* Disse pdf gælder for PDF, Word og PowerPoint*/
+  table.pdf, th.pdf, td.pdf{
+    margin:20px;
+  }
+
+
+a.pdf:link, a.pdf:visited {
+    text-decoration: none;
+    color: #00000;
+    font-size: 15px;
+    font-family: "Calibri Light",sans-serif;
+    color: black;
+
+  }
+
+a.pdf:hover {
+    text-decoration: none;
+    font-size: 20px;
+    font-family: "Calibri Light",sans-serif;
+  }
